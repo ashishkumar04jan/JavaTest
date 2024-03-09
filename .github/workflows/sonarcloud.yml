@@ -50,7 +50,8 @@ jobs:
             uses: Fleshgrinder/setup-java@1.0.0
             with:
               # Specifies a version to use instead of reading it from a file, useful in matrix builds.
-              version: 17.0.10
+              version: 17
+              distribution: 'temurin'
               # Specifies the name to the file where the version should be read from.
                     
           - name: Analyze with SonarCloud

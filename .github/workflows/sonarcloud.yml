@@ -50,7 +50,7 @@ jobs:
             uses: actions/setup-java@v3
             with:
               # Specifies a version to use instead of reading it from a file, useful in matrix builds.
-              java-version: 17
+              java-version: 11
               distribution: 'temurin'
               # Specifies the name to the file where the version should be read from.
                     
